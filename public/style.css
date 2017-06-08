@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+}
+
+.chat {
+    display: none;
+    padding: 30px;
+}
+
+.login {
+    display: block;
+    padding: 30px;
+}
+
+.message {
+    display: flex;
+    margin: 0 !important; 
+}
+
+.message__nickname {
+    margin-right: 5px;
+}

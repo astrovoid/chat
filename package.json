@@ -1,0 +1,31 @@
+{
+  "name": "websocket-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrovoid/websocket-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astrovoid/websocket-chat/issues"
+  },
+  "homepage": "https://github.com/astrovoid/websocket-chat#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bulma": "^0.4.1",
+    "express": "^4.15.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "mongoose": "^4.9.7",
+    "pug": "^2.0.0-beta.12",
+    "socket.io": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  }
+}

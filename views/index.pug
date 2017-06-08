@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Websocket Chat
+    link(href="/bulma.css" type="text/css" rel="stylesheet")
+    link(href="/style.css" type="text/css" rel="stylesheet")
+body
+    div.login
+        label(for="username").label-username.label Nickname
+        input(name="username" placeholder="Enter your nickname").input-username.input
+    div.chat
+        div.rooms 
+            a(href="#").button.rooms__create-room Create room
+            ul.rooms__list
+                li.room
+                    div.room__name
+                    div.room__creator
+                    div.room__stats
+        div.messages
+            ul.messages__list
+                li.message
+                    span.message__nickname
+                    span.message__text
+            div.typings-users
+            input.input-message.input
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src="/main.js")
